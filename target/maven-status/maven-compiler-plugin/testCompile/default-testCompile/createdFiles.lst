@@ -1,0 +1,7 @@
+com/student/junit/CrudModified.class
+com/student/junit/StudentSerenitySteps.class
+com/student/utils/TestUtils.class
+com/student/testbase/TestBase.class
+com/student/junit/FirstSerenityTest.class
+com/student/utils/ReusableSpecifications.class
+com/student/junit/CrudOperations.class
