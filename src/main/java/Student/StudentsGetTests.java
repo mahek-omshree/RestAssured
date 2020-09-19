@@ -12,8 +12,10 @@ public class StudentsGetTests extends BaseInit{
 
     @Test
     public void getStudentsList() {
-        Response response = RestAssured.given().when().get("/list");
+        Response response = given().when().get("/list");
         //to print in a string
+        String responseString=response.toString();
+        responseString.contains("star");
         System.out.println(response.body().asString());
         //to print as in json form
         System.out.println(response.prettyPrint());
